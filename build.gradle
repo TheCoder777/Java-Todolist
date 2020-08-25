@@ -36,3 +36,9 @@ application {
     // Define the main class for the application.
     mainClassName = 'Todolist.App'
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Todolist.App'
+    }
+}
